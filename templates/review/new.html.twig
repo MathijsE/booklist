@@ -5,7 +5,7 @@
 {% block body %}
     <h1>Create new Review</h1>
 
-    <a class="btn light">{{ include('review/_form.html.twig') }}</a>
+    {{ include('review/_form.html.twig') }}
 
     <a class="btn btn-info" href="{{ path('review_index') }}">back to list</a>
 {% endblock %}
